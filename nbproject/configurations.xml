@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="90">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="ResourceFiles" displayName="Source" projectFiles="true">
+      <logicalFolder name="Implementation"
+                     displayName="Implementation"
+                     projectFiles="true">
+        <logicalFolder name="core" displayName="core" projectFiles="true">
+          <itemPath>Source/Implementation/core/Angle.inl</itemPath>
+          <itemPath>Source/Implementation/core/Color.inl</itemPath>
+          <itemPath>Source/Implementation/core/GLException.inl</itemPath>
+          <itemPath>Source/Implementation/core/IllegalArgumentException.inl</itemPath>
+          <itemPath>Source/Implementation/core/IndexBuffer.inl</itemPath>
+          <itemPath>Source/Implementation/core/Line.inl</itemPath>
+          <itemPath>Source/Implementation/core/Matrix.inl</itemPath>
+          <itemPath>Source/Implementation/core/Point.inl</itemPath>
+          <itemPath>Source/Implementation/core/Quad.inl</itemPath>
+          <itemPath>Source/Implementation/core/Quaternion.inl</itemPath>
+          <itemPath>Source/Implementation/core/ResourceException.inl</itemPath>
+          <itemPath>Source/Implementation/core/Triangle.inl</itemPath>
+          <itemPath>Source/Implementation/core/Tuple.inl</itemPath>
+          <itemPath>Source/Implementation/core/Vector.inl</itemPath>
+          <itemPath>Source/Implementation/core/Vertex.inl</itemPath>
+          <itemPath>Source/Implementation/core/VertexBuffer.inl</itemPath>
+        </logicalFolder>
+        <logicalFolder name="glsl" displayName="glsl" projectFiles="true">
+          <itemPath>Source/Implementation/glsl/AttributeNotFoundException.inl</itemPath>
+          <itemPath>Source/Implementation/glsl/BindException.inl</itemPath>
+          <itemPath>Source/Implementation/glsl/CompilationError.inl</itemPath>
+          <itemPath>Source/Implementation/glsl/LinkingError.inl</itemPath>
+          <itemPath>Source/Implementation/glsl/Program.inl</itemPath>
+          <itemPath>Source/Implementation/glsl/Shader.inl</itemPath>
+          <itemPath>Source/Implementation/glsl/UniformMismatchException.inl</itemPath>
+          <itemPath>Source/Implementation/glsl/UniformNotFoundException.inl</itemPath>
+        </logicalFolder>
+        <logicalFolder name="scene" displayName="scene" projectFiles="true">
+          <itemPath>Source/Implementation/scene/AbstractSceneGraphNode.inl</itemPath>
+          <itemPath>Source/Implementation/scene/AmbientLight.inl</itemPath>
+          <itemPath>Source/Implementation/scene/Camera.inl</itemPath>
+          <itemPath>Source/Implementation/scene/DirectionalLight.inl</itemPath>
+          <itemPath>Source/Implementation/scene/Material.inl</itemPath>
+          <itemPath>Source/Implementation/scene/Mesh.inl</itemPath>
+          <itemPath>Source/Implementation/scene/PositionedLight.inl</itemPath>
+          <itemPath>Source/Implementation/scene/Skybox.inl</itemPath>
+          <itemPath>Source/Implementation/scene/Terrain.inl</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="Interface" displayName="Interface" projectFiles="true">
+        <logicalFolder name="core" displayName="core" projectFiles="true">
+          <itemPath>Source/Interface/core/Angle.hpp</itemPath>
+          <itemPath>Source/Interface/core/Color.hpp</itemPath>
+          <itemPath>Source/Interface/core/GLException.hpp</itemPath>
+          <itemPath>Source/Interface/core/IllegalArgumentException.hpp</itemPath>
+          <itemPath>Source/Interface/core/IndexBuffer.hpp</itemPath>
+          <itemPath>Source/Interface/core/Line.hpp</itemPath>
+          <itemPath>Source/Interface/core/Matrix.hpp</itemPath>
+          <itemPath>Source/Interface/core/Point.hpp</itemPath>
+          <itemPath>Source/Interface/core/Quad.hpp</itemPath>
+          <itemPath>Source/Interface/core/Quaternion.hpp</itemPath>
+          <itemPath>Source/Interface/core/ResourceException.hpp</itemPath>
+          <itemPath>Source/Interface/core/Triangle.hpp</itemPath>
+          <itemPath>Source/Interface/core/Tuple.hpp</itemPath>
+          <itemPath>Source/Interface/core/Vector.hpp</itemPath>
+          <itemPath>Source/Interface/core/Vertex.hpp</itemPath>
+          <itemPath>Source/Interface/core/VertexBuffer.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="glsl" displayName="glsl" projectFiles="true">
+          <itemPath>Source/Interface/glsl/AttributeNotFoundException.hpp</itemPath>
+          <itemPath>Source/Interface/glsl/BindException.hpp</itemPath>
+          <itemPath>Source/Interface/glsl/CompilationError.hpp</itemPath>
+          <itemPath>Source/Interface/glsl/LinkingError.hpp</itemPath>
+          <itemPath>Source/Interface/glsl/Program.hpp</itemPath>
+          <itemPath>Source/Interface/glsl/Shader.hpp</itemPath>
+          <itemPath>Source/Interface/glsl/UniformMismatchException.hpp</itemPath>
+          <itemPath>Source/Interface/glsl/UniformNotFoundException.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="io" displayName="io" projectFiles="true">
+          <itemPath>Source/Interface/io/MeshProvider.hpp</itemPath>
+          <itemPath>Source/Interface/io/TextureProvider.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="scene" displayName="scene" projectFiles="true">
+          <itemPath>Source/Interface/scene/AbstractSceneGraphNode.hpp</itemPath>
+          <itemPath>Source/Interface/scene/AmbientLight.hpp</itemPath>
+          <itemPath>Source/Interface/scene/Camera.hpp</itemPath>
+          <itemPath>Source/Interface/scene/DirectionalLight.hpp</itemPath>
+          <itemPath>Source/Interface/scene/Heightmap.hpp</itemPath>
+          <itemPath>Source/Interface/scene/Material.hpp</itemPath>
+          <itemPath>Source/Interface/scene/Mesh.hpp</itemPath>
+          <itemPath>Source/Interface/scene/MeshNode.hpp</itemPath>
+          <itemPath>Source/Interface/scene/PositionedLight.hpp</itemPath>
+          <itemPath>Source/Interface/scene/Rotation.hpp</itemPath>
+          <itemPath>Source/Interface/scene/Scene.hpp</itemPath>
+          <itemPath>Source/Interface/scene/SceneGraphNode.hpp</itemPath>
+          <itemPath>Source/Interface/scene/Skybox.hpp</itemPath>
+          <itemPath>Source/Interface/scene/Terrain.hpp</itemPath>
+          <itemPath>Source/Interface/scene/Translation.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="texture" displayName="texture" projectFiles="true">
+          <itemPath>Source/Interface/texture/Texture.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder name="util" displayName="util" projectFiles="true">
+          <itemPath>Source/Interface/util/Bootstrap.hpp</itemPath>
+          <itemPath>Source/Interface/util/Bootstrap.inl</itemPath>
+          <itemPath>Source/Interface/util/BuildConstraints.hpp</itemPath>
+          <itemPath>Source/Interface/util/Platform.hpp</itemPath>
+          <itemPath>Source/Interface/util/PluginLoader.hpp</itemPath>
+          <itemPath>Source/Interface/util/PluginLoader_Linux.hpp</itemPath>
+          <itemPath>Source/Interface/util/ServiceProvider.hpp</itemPath>
+          <itemPath>Source/Interface/util/constexpr_math.hpp</itemPath>
+          <itemPath>Source/Interface/util/dynamic_assert.hpp</itemPath>
+          <itemPath>Source/Interface/util/dynamic_warn.hpp</itemPath>
+          <itemPath>Source/Interface/util/hash_code.hpp</itemPath>
+          <itemPath>Source/Interface/util/internationalization.hpp</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+      <logicalFolder name="f1" displayName="core" projectFiles="true" kind="TEST">
+        <itemPath>Testing/core/Color.cpp</itemPath>
+        <itemPath>Testing/core/Point.cpp</itemPath>
+        <itemPath>Testing/core/Tuple.cpp</itemPath>
+        <itemPath>Testing/core/Vector.cpp</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="glsl" projectFiles="true" kind="TEST">
+        <itemPath>Testing/glsl/Shader.cpp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>main.cpp</itemPath>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>Source</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+          <incDir>
+            <pElem>Source/Interface/core</pElem>
+            <pElem>Source/Interface/glsl</pElem>
+            <pElem>Source/Interface/io</pElem>
+            <pElem>Source/Interface/scene</pElem>
+            <pElem>Source/Interface/texture</pElem>
+            <pElem>Source/Interface/util</pElem>
+            <pElem>Source/Implementation/core</pElem>
+            <pElem>Source/Implementation/glsl</pElem>
+            <pElem>Source/Implementation/scene</pElem>
+          </incDir>
+        </ccTool>
+      </compileType>
+      <item path="Source/Implementation/core/Angle.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Color.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/GLException.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/IllegalArgumentException.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/IndexBuffer.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Line.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Matrix.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Point.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Quad.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Quaternion.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/ResourceException.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Triangle.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Tuple.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Vector.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Vertex.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/VertexBuffer.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/AttributeNotFoundException.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/BindException.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/CompilationError.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/LinkingError.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/Program.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/Shader.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/UniformMismatchException.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/UniformNotFoundException.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/AbstractSceneGraphNode.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/AmbientLight.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/Camera.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/DirectionalLight.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/Material.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/Mesh.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/PositionedLight.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/Skybox.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/Terrain.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Angle.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Color.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/GLException.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/core/IllegalArgumentException.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/core/IndexBuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Line.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Matrix.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Point.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Quad.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Quaternion.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/core/ResourceException.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Triangle.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Tuple.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Vector.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Vertex.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/VertexBuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/AttributeNotFoundException.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/BindException.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/CompilationError.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/LinkingError.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/Program.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/Shader.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/UniformMismatchException.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/UniformNotFoundException.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/io/MeshProvider.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/io/TextureProvider.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/AbstractSceneGraphNode.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/AmbientLight.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Camera.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/DirectionalLight.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Heightmap.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Material.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Mesh.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/MeshNode.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/PositionedLight.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Rotation.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Scene.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/SceneGraphNode.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Skybox.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Terrain.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Translation.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/texture/Texture.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/Bootstrap.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/Bootstrap.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/BuildConstraints.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/Platform.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/util/PluginLoader.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/PluginLoader_Linux.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/ServiceProvider.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/constexpr_math.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/dynamic_assert.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/dynamic_warn.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/hash_code.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/internationalization.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Testing/core/Color.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Testing/core/Point.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Testing/core/Tuple.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Testing/core/Vector.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Testing/glsl/Shader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <folder path="TestFiles">
+        <ccTool>
+          <incDir>
+            <pElem>Testing/gtest 1.7.0/include</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>Testing/gtest 1.7.0</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>gtest</linkerLibLibItem>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerOptionItem>`pkg-config --libs gl`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs glew`</linkerOptionItem>
+            <linkerOptionItem>`pkg-config --libs glu`</linkerOptionItem>
+            <linkerLibLibItem>freeglut</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f2">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f2</output>
+        </linkerTool>
+      </folder>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Source/Implementation/core/Angle.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Color.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/GLException.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/IllegalArgumentException.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/IndexBuffer.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Line.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Matrix.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Point.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Quad.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Quaternion.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/ResourceException.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Triangle.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Tuple.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Vector.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/Vertex.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/core/VertexBuffer.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/AttributeNotFoundException.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/BindException.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/CompilationError.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/LinkingError.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/Program.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/Shader.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/UniformMismatchException.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/glsl/UniformNotFoundException.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/AbstractSceneGraphNode.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/AmbientLight.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/Camera.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/DirectionalLight.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/Material.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/Mesh.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/PositionedLight.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/Skybox.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Implementation/scene/Terrain.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Angle.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Color.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/GLException.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/core/IllegalArgumentException.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/core/IndexBuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Line.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Matrix.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Point.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Quad.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Quaternion.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/core/ResourceException.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Triangle.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Tuple.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Vector.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/Vertex.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/core/VertexBuffer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/AttributeNotFoundException.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/BindException.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/CompilationError.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/LinkingError.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/Program.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/Shader.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/UniformMismatchException.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/glsl/UniformNotFoundException.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/io/MeshProvider.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/io/TextureProvider.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/AbstractSceneGraphNode.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/AmbientLight.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Camera.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/DirectionalLight.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Heightmap.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Material.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Mesh.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/MeshNode.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/PositionedLight.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Rotation.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Scene.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/SceneGraphNode.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Skybox.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Terrain.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/scene/Translation.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/texture/Texture.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/Bootstrap.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/Bootstrap.inl"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/BuildConstraints.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/Platform.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Source/Interface/util/PluginLoader.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/PluginLoader_Linux.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/ServiceProvider.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/constexpr_math.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/dynamic_assert.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/dynamic_warn.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/hash_code.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Source/Interface/util/internationalization.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Testing/core/Color.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Testing/core/Point.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Testing/core/Tuple.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Testing/core/Vector.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Testing/glsl/Shader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <folder path="TestFiles/f1">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f1</output>
+        </linkerTool>
+      </folder>
+      <folder path="TestFiles/f2">
+        <cTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+        <linkerTool>
+          <output>${TESTDIR}/TestFiles/f2</output>
+        </linkerTool>
+      </folder>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
